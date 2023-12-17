@@ -10,6 +10,6 @@ const browser = await chromium.launch({
 const context = await browser.newContext();
 const page = await browser.newPage();
 
-page.goto('https://pornhub.com');
+page.goto('https://snapchat.com');
 
 page.waitForTimeout(10000);
